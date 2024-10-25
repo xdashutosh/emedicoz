@@ -1,0 +1,258 @@
+.ReferEarn{
+    margin: 95px 0;
+}
+.ReferEarn .referImg {
+    text-align: center;
+    background: rgb(214 236 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+}
+.ReferEarn .referImg img{
+    max-width: 100%;
+    width: 350px;
+}
+.ReferEarn .referText{
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 20px 10px 0;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.ReferEarn .referText h3{
+    color: #212121;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.ReferEarn .referText h5{
+    color: #f15a22;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.ReferEarn .referText h6{
+    color: #212121;
+    opacity: .7;
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.ReferEarn .referText .formbg{
+       padding: 35px 50px;
+}
+.ReferEarn .referText .formbg form input{
+    height: 42px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+.ReferEarn .referText .formbg form label{
+    margin: 0px;
+    font-size: 15px;
+    width: 85px;
+}
+.ReferEarn .referText .formbg form .ant-select-selector{
+    height: 42px;
+    border: 1px solid #ccc;
+    font-size: 15px; 
+    text-align: left;
+}
+.ReferEarn .referText .formbg form button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0px;
+    height: 45px;
+    width: 170px;
+    margin-top: 25px;
+    background: #071952;
+}
+.ReferEarn .referText .howitWork {
+    text-align: left;
+    padding: 50px 50px;
+    background: #f5f5f5;
+    margin: 0 30px;
+    border-radius: 10px;
+}
+.ReferEarn .referText .howitWork p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #212121;
+    line-height: 28px;
+}
+.ReferEarn .referText .howitWork h6{
+    color: #212121;
+    opacity: 1;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.ReferEarn .referText .terms{
+    text-align: left;
+    padding: 50px 30px;
+}
+.ReferEarn .referText .terms p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #212121;
+    line-height: 38px;
+    padding: 0 20px;
+
+}
+.ReferEarn .referText .terms .ant-collapse-header{
+    font-weight: 500;
+}
+.ReferEarn .ant-form-item-explain-error {
+    text-align: left;
+    margin: 0px 0 10px;
+}
+
+.referList{
+    margin: 120px 0 60px;
+    padding: 0;
+}
+.referList .innerRefer {
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.referList .innerRefer img{
+    max-width: 100%;
+    width: 50%;
+}
+.referList .referText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, 0%);
+}
+.referList .referText h5{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.referList .referText h6{
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+}
+.setdatav{
+    border:1px solid #5AB2FF ;
+    margin: 4px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    background: #A0DEFF;
+    border-radius: 6px;
+    padding: 1px 20px
+}
+.setdatav .setinner{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    line-height: 20px;
+    flex-direction: column;
+}
+.setdatav .setchild{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.setchild .redeem {
+    padding: 6px 20px;
+    border-radius: 5px;
+    background: #5AB2FF;
+    color:#ffffff
+}
+.noRecord{
+    text-align: center;
+    padding: 10px;
+    margin: 30px 25%;
+    background: #EEF7FF;
+}
+
+
+
+/* Media Query */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .ReferEarn .referImg img {
+        max-width: 100%;
+        width: 240px;
+    }
+}
+@media only screen and (max-width:767px){
+    .ReferEarn {
+        margin: 70px 0;
+    }
+    .ReferEarn .referImg img {
+        width: 160px;
+    }
+    .ReferEarn .referText h5 {
+        font-size: 16px;
+    }
+    .ReferEarn .referText h6 {
+        font-size: 13px;
+    }
+    .ReferEarn .referText h3 {
+        font-size: 17px;
+    }
+    .ReferEarn .referText .formbg {
+        padding: 30px 15px;
+    }
+    .ReferEarn .referText .formbg form label {
+        margin: 0px;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+    .ReferEarn .referText .formbg .ant-form-item{
+        margin-bottom: 10px;
+    }
+    .ReferEarn .referText .formbg form input {
+        height: 38px;
+    }
+    .ReferEarn .referText .formbg form .ant-select-selector{
+        height: 38px;
+    }
+    .ReferEarn .referText .howitWork {
+        padding: 25px 10px;
+        margin: 0px;
+    }
+    .ReferEarn .referText .howitWork p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .ReferEarn .referText .terms {
+        margin-top: 30px;
+        padding: 0;
+    }
+    .ReferEarn .referText .terms p {
+        font-size: 14px;
+        padding: 0 0;
+    }
+    .ReferEarn .referText .formbg form button {
+        font-size: 14px;
+        padding: 6px 0px;
+        height: 40px;
+    }
+    .ReferEarn .referText .howitWork h6 {
+        font-size: 17px;
+    }
+    .referList {
+        margin: 80px 0 48px;
+    }
+    .referList .innerRefer img{
+        width: 100%;
+    }
+    .referList .referText {
+        top: 26%;
+        left: 45%;
+        transform: translate(0%, 0%);
+    }
+    .noRecord {
+        margin: 30px 0%;
+    }
+}

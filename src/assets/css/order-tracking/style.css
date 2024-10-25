@@ -1,0 +1,191 @@
+a:hover {
+    text-decoration: none !important;
+}
+
+.order-tracking {
+    margin: 50px 13%;
+}
+
+.order-tracking .order-book {
+    border-radius: 2px;
+    background-color: #d7eeef;
+    text-align: center;
+    padding: 0 0 19px;
+}
+
+.order-tracking .order-book img {
+    max-width: 100%;
+    width: 108px;
+    margin-top: -19px;
+}
+
+.order-tracking .order-text {
+    margin-left: 20px;
+}
+
+.order-tracking .order-text h3 {
+    line-height: 18px;
+    color: #212121;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.order-tracking .order-text p {
+    margin: 0;
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.order-tracking .order-text span.price {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.order-tracking .order-text span.offer {
+    color: #41c300;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.order-tracking .order-text span.rating {
+    color: #8e8e8e;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 15%;
+}
+
+.order-tracking .order-text span.rating em {
+    color: #757575;
+    margin-right: 2px;
+}
+
+.order-tracking .tracking {
+    margin-top: 30px;
+}
+
+.order-tracking ol.progtrckr {
+    margin: 0px 0px 110px 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.order-tracking ol.progtrckr li {
+    display: inline-block;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+.order-tracking ol.progtrckr[data-progtrckr-steps="5"] li {
+    width: 16%;
+}
+
+.order-tracking ol.progtrckr li.progtrckr-done {
+    color: black;
+    border-bottom: 4px solid #41c300;
+}
+
+.order-tracking ol.progtrckr li.progtrckr-todo {
+    color: silver;
+    border-bottom: 4px solid silver;
+}
+
+.order-tracking ol.progtrckr li:before {
+    position: relative;
+    bottom: -46px;
+    float: left;
+    left: -9px;
+}
+
+.order-tracking ol.progtrckr li.progtrckr-done:before {
+    content: "";
+    color: #fff;
+    background-color: #41c300;
+    height: 20px;
+    width: 20px;
+    line-height: 2.2em;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top: -9px;
+}
+
+.order-tracking ol.progtrckr li.progtrckr-todo:before {
+    content: "";
+    color: silver;
+    background-color: #bdbdbd;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top: -9px;
+}
+
+.order-tracking ol.progtrckr li.progtrckr-done span {
+    margin-top: 0px;
+    position: absolute;
+    left: -26px;
+    top: 35px;
+    line-height: 19px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.order-tracking ol.progtrckr li.progtrckr-todo:last-child {
+    border-bottom: none;
+    margin-bottom: 4px;
+}
+
+.order-tracking ol.progtrckr li.progtrckr-todo span {
+    margin-top: 0px;
+    position: absolute;
+    left: -26px;
+    top: 35px;
+    line-height: 19px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.order-tracking .track-status {
+    padding: 35px 0px 0px;
+}
+
+.order-tracking .track-status h3 {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.order-tracking .track-status table.table {
+    margin-top: 15px;
+}
+
+.order-tracking .track-status td {
+    padding: 15px 0px;
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.order-tracking .track-status td img {
+    margin-right: 15px;
+}
+
+.order-tracking .track-status td.bold {
+    color: #212121 !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+.order-tracking .track-status td.size {
+    width: 300px;
+    font-weight: 700;
+    color: #8e8e8e;
+    font-size: 16px;
+}

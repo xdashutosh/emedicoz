@@ -1,0 +1,19 @@
+# Ignore Node.js modules
+node_modules/
+dist/
+
+# Ignore YAML files
+*.yml
+
+# Ignore Dockerfile directory (assuming you want to ignore the directory itself)
+dockerfile/
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# Ignore API
+./src/apiConfig.jsx
+./src/API/axiosConfig.jsx

@@ -1,0 +1,534 @@
+.DailyData{
+    margin: 110px 0 60px;
+    width: 100%;
+    float: left;
+}
+.DailyData .dailyInner{
+    width: 100%;
+    float: left;
+}
+.DailyData  .dialybanner{
+    background: rgb(60 138 210);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+}
+.DailyData .dialybanner .textWidth {   
+    width: auto;
+}
+.DailyData .dialybanner .textWidth h4 {   
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.DailyData .dialybanner .textWidth span.playbtn{
+    padding: 8px 0px;
+    background: white;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    width: 150px;
+}
+.DailyData .dialybanner .textWidth span.playbtn span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.DailyData .dialybanner .imgbanner img{
+    max-width: 100%;
+    width: 315px;
+}
+.DailyData .dailyMiddle {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin: 40px 0px;
+    width: 100%;
+    float: left;
+}
+.DailyData .dailyMiddle .middleInner{
+    padding: 12px 8px;
+    border-radius: 10px;
+    margin-right: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #eee;
+    width: 24%;
+    float: left;
+    margin-bottom: 16px;
+}
+.DailyData .dailyMiddle .middleInner .Innersec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DailyData .dailyMiddle .middleInner .Innersec span{
+    font-size: 13px;
+    text-align: right;
+    color: #000;
+}
+.DailyData .dailyMiddle .middleInner .Innersec .topic {
+    display: flex;
+    align-items: center;
+}
+.DailyData .dailyMiddle .middleInner .Innersec .topic img{
+    max-width: 100%;
+    width: 25px;
+    margin-right: 7px;
+}
+.DailyData .dailyMiddle .middleInner .Innersec .topic svg{
+    margin-right: 10px;
+    font-size:25px; 
+    display: none;
+}
+.DailyData .dailyMiddle .middleInner .Innersec .topic .totalTopic{
+    display: flex;
+    flex-direction: column;
+}
+.DailyData .dailyMiddle .middleInner .Innersec .topic .totalTopic i{
+    font-style: normal;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px
+}
+.DailyData .dailyMiddle .middleInner .Innersec .topic .totalTopic b{
+    font-size: 12px;
+}
+
+.DailyData .dailyMiddle .belowSec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center
+}
+.DailyData .dailyMiddle .belowSec .bottominner{
+    display: flex;
+    align-items: center;
+}
+.DailyData .dailyMiddle .belowSec .bottominner img{
+   max-width: 100%;
+   width: 25px;
+   margin-right: 7px;
+}
+.DailyData .dailyMiddle .belowSec .bottominner svg{
+    margin-right: 10px;
+    font-size: 33px; 
+    display: none;
+}
+.DailyData .dailyMiddle .belowSec .bottominner .bottomData{
+    display: flex;
+    flex-direction: column;
+}
+.DailyData .dailyMiddle .belowSec .bottominner .bottomData i {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000;
+}
+.DailyData .dailyMiddle .belowSec .bottomData1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DailyData .dailyMiddle .belowSec .bottomData1 .para p {
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+.DailyData .dailyMiddle .belowSec .bottomData1 img{
+    max-width: 100%;
+    width: 30px;
+    margin-right: 7px; 
+}
+.DailyData .dailyMiddle .belowSec .bottomData1 svg{
+    display: none;
+}
+
+.DailyData .dailyMiddle .belowSec .bottominner .bottomData b {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.DailyData .dailyMiddle .btnData{
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+}
+.DailyData .dailyMiddle .btnData button{
+    background: dodgerblue;
+    color: #fff;
+    padding: 4px 14px;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+}
+.DailyData .dailyMiddle .btnData button.activedata{
+    background: dodgerblue;
+    color: #fff;
+}
+.DailyData .dailyMiddle .btnData button.withoutactivedata{
+    background: gray;
+    color: white;
+}
+.DailyData .middleSecData{
+    margin: 40px 0; 
+}
+.DailyData .middleSecData span i{
+    font-size: 20px;
+    font-style: normal;
+    color: #000;
+    font-weight: 600;
+}
+.DailyData .middleSecData .middlepart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.DailyData .middleSecData .middlepart .middleInner{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+}
+.DailyData .middleSecData .middlepart .middleInner img{
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+}
+.DailyData .middleSecData .middlepart .middleInner span{
+    color: #0063be;
+    margin: 14px 0px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+.DailyData .middleSecData .middlepart .middleInner .numberRank {
+    background: rgb(70, 163, 249);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    margin: -10px 0px;
+}
+.DailyData .middleSecData .middlepart .middleInner span.lightDark{
+    color: #565555c4;
+    margin-left:5px;
+}
+.DailyData .middleSecData .middlepart .middleInner p{
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+}
+.DailyData .middleSecData .middlepart .middleInner .nameData{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: 600;
+    background-image: linear-gradient(#2085e3, #78bcfb6e);
+}
+.DailyData .showData{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.DailyData .showData .TextData{
+    border: 1px solid #1e90ff69;
+    padding: 4px 0px;
+    color: #1e90ff;
+    cursor: pointer;
+    background: #b5e5ff82;
+    border-radius: 6px;
+    width: 135px;
+    text-align: center;
+    font-weight: 600;
+}
+.DailyData .Areabanner{
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+    background-image: linear-gradient(#46a3f9, #78bcfb30);
+}
+.DailyData .Areabanner .imgbb img{
+    width: 215px;
+}
+.DailyData .Areabanner .viewReport{
+    width: auto;
+}
+.DailyData .Areabanner .viewReport h5{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #212121;
+}
+.DailyData .Areabanner .viewReport p{
+    color: #037cec;
+    font-weight: 500;
+    margin: 0;
+    font-size: 16px;
+}
+.DailyData .Areabanner .roundNumber {
+    width: 80px;
+    height: 80px;
+    background: #f2e5ce;
+    text-align: center;
+    color: #f19023;
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DailyData .Areabanner .viewReport .viewAll {
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff;
+    color: #1e90ff;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: #d9f2ff;
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.DailyData .boxadata {
+    margin: 40px 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+.DailyData .boxadata .boxdataInner {
+    cursor: pointer;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-right: 15px;
+    width: 15%;
+}
+.DailyData .boxadata .boxdataInner img{
+    max-width: 100%;
+    width: 40px;
+    margin-bottom: 10px;
+}
+.DailyData .boxadata .boxdataInner p{
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+
+.detailModel {
+    width: 768px !important;
+}
+.detailModel th.ant-table-cell{
+    padding: 12px 15px !important;
+    font-size: 16px;
+    font-weight: 700 !important;
+    color: #fff !important;
+    background: #0b82f1 !important;
+    min-width: auto !important;
+}
+.detailModel th.ant-table-cell:before{
+    background: none !important;
+}
+.detailModel td.ant-table-cell{
+    padding: 5px 15px !important;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    min-width: auto !important;
+}
+.detailModel li.ant-pagination-item{
+    color: #000;
+    border: 1px solid #015dde4d;
+    font-size: 17px;
+    font-weight: 600 !important;
+}
+.detailModel li.ant-pagination-item-active{
+    color: #fff;
+    background: #1677ff;
+}
+.detailModel .ant-table-pagination {
+margin: 30px 0px !important;
+}
+.detailModel .ant-modal-footer button{
+    border: 1px solid #eee !important;
+}
+.detailModel .ant-list-item-action li p{
+    border-radius: 8px;
+}
+.detailModel .ant-list-item-action li button{
+    padding: 0px 10px;
+    min-width: 122px;
+    font-weight: 500;
+}
+/* .detailModel .ant-list-item-action li button.ant-btn-default {
+    background: #076f07;
+    color:#fff
+} */
+.detailModel .ant-list-item-meta-avatar svg{
+    font-size: 23px;
+    color: green
+}
+
+@media only screen and (min-width:1200px) and (max-width:1329px){
+    .DailyData .dailyMiddle{
+        white-space: nowrap;
+        flex-wrap: initial;
+        overflow: auto;
+        scrollbar-width: none;
+    }
+    .DailyData .dailyMiddle .middleInner{
+        width: 32%;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    
+    .DailyData .dailyMiddle .middleInner{
+        width: 32%;
+        margin-right: 7px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    
+    .DailyData .dailyMiddle .middleInner{
+        width:48%;
+        margin-right: 7px;
+    }
+}
+@media only screen and (max-width:767px){
+    .DailyData {
+        margin: 60px 0 60px;
+    }
+    .DailyData .dialybanner {
+        padding: 15px 10px;
+    }
+    .DailyData .dialybanner .textWidth h4 {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .DailyData .dialybanner .textWidth span.playbtn {
+        padding: 2px 0px;
+        width: 105px;
+    }
+    .DailyData .dialybanner .textWidth span.playbtn span {
+        font-size: 16px;
+    }
+    .DailyData .dailyMiddle .middleInner{
+        width:100%
+    }
+    .DailyData .dialybanner .imgbanner img {
+        width: 150px;
+    }
+    .DailyData .middleSecData span i{
+        font-size: 16px;
+    }
+    .DailyData .middleSecData .middlepart {
+        justify-content: space-between;
+    }
+    .DailyData .middleSecData .middlepart .middleInner{
+        width: 32%;
+        margin: 5px 0;
+        padding: 6px 5px;
+    }
+    .DailyData .middleSecData .middlepart .middleInner img {
+        height: 50px;
+        width: 50px;
+    }
+    .DailyData .middleSecData .middlepart .middleInner .numberRank{
+        width: 22px;
+        height: 22px;
+    }
+    .DailyData .middleSecData .middlepart .middleInner span{
+        font-size: 12px;
+    }
+    .DailyData .middleSecData .middlepart .middleInner p{
+        font-size: 12px;
+    }
+    .DailyData .dailyMiddle .btnData button{
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    .DailyData .showData .TextData {
+        padding: 2px 0px;
+        width: 105px;
+        font-size: 14px;
+    }
+    .DailyData .Areabanner {
+        padding: 10px 10px;
+    }
+    .DailyData .Areabanner .imgbb img {
+        width: 100px;
+    }
+    .DailyData .Areabanner .viewReport h5 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    .DailyData .Areabanner .viewReport p {
+        font-size: 10px;
+    }
+    .DailyData .Areabanner .roundNumber {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .DailyData .Areabanner .viewReport .viewAll{
+        padding: 3px 5px;
+        font-size: 13px;
+    }
+    .DailyData .boxadata .boxdataInner{
+        width: 32%;
+        margin-right: 10px;
+        padding: 9px 10px;
+    }
+    .DailyData .boxadata .boxdataInner p{
+        font-size: 12px;
+    }
+    .DailyData .boxadata .boxdataInner img {
+        width: 30px;
+    }
+    .DailyData .boxadata .boxdataInner:last-child{
+        margin-right: 0px;
+    }
+    .detailModel th.ant-table-cell{
+        min-width: auto !important;
+        font-size: 13px;
+        padding: 12px 5px !important
+    }
+    .detailModel td.ant-table-cell{
+        min-width: auto !important;
+        font-size: 11px;
+    }
+    .detailModel .ant-list-item-action li button{
+        min-width: 100px;
+    }
+    .detailModel {
+        width: 100% !important;
+    }
+}
+

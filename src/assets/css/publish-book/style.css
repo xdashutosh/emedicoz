@@ -1,0 +1,839 @@
+.PunlishBook{
+    background: #ffff url(https://d2enu63wt1sf3u.cloudfront.net/react_emed_web/background-bg.svg);
+    width: 100%;
+    float: left;  
+}
+.EbookSale{
+    background: #ffff url(https://d2enu63wt1sf3u.cloudfront.net/react_emed_web/background-bg.svg);
+    padding: 0px 0px 50px; 
+}
+.publish-book {
+    margin: 70px 0px;
+}
+
+.publish-book .img-publish {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.publish-book .img-publish img {
+    border-radius: 8px;
+    border: 1px solid #071952;
+    padding: 20px 30px;
+    width: 115px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.publish-book .img-publish h3 {
+    color: #071952;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px !important;
+}
+
+.publish-book .img-publish a {
+    border-radius: 4px;
+    background-color: #071952;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 0px;
+    display: block;
+   
+}
+
+
+/* Begin: Publish book fill detail page */
+
+.publish-book-detail {
+    padding: 50px 0px;
+    background: #ffff url(https://d2enu63wt1sf3u.cloudfront.net/react_emed_web/background-bg.svg);
+}
+
+.publish-book-detail h3 {
+    color: #212121;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.publish-book-detail .form-field {
+    margin-top: 35px;
+}
+
+.publish-book-detail .form-control {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 13px !important;
+    line-height: 18px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #707070;
+    font-weight: 500;
+    color: #212121;
+    height: 45px;
+    min-height: 40px;
+}
+
+.publish-book-detail .form-control::placeholder {
+    color: #212121;
+    font-weight: 600;
+}
+
+.publish-book-detail .form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #212121;
+    font-size: 15px;
+    font-weight: 500;
+}
+.publish-book-detail .form-group .btn{
+    background-color: #071952;
+}
+.publish-book-detail a {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #071952;
+    margin-top: 35px;
+    font-size: 14px;
+    width: 250px;
+}
+
+.publish-book-detail img.download {
+    position: absolute;
+    top: 43px;
+    right: 15px;
+    z-index: 1;
+}
+
+.publish-book-detail #file {
+    display: none;
+}
+
+.publish-book-detail a#file-link {
+    width: 100%;
+    background: none;
+    margin: 0px;
+    height: 40px;
+    border: 1px solid #707070;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 10px;
+}
+
+.publish-book-detail .files {
+    margin: 10px 0 0 0px;
+}
+
+.publish-book-detail button.btn {
+    padding: 12px 10px;
+    font-size: 15px;
+    width: 25%;
+    margin: 30px auto 0;
+    font-weight: 500;
+}
+
+
+/* End: Publish book fill detail page */
+
+
+/* Begin: Publish book Receipt ID page*/
+
+.publish-receiptid {
+    margin: 50px 10%;
+}
+
+.publish-receiptid p {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.publish-receiptid .box-text {
+    border-radius: 6px;
+    border: 1px solid #071952;
+    background-color: #e3f2fd;
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+
+.publish-receiptid .box-text h4 {
+    color: #071952;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    text-align: center;
+}
+
+.publish-receiptid .reciept-id {
+    margin: 5% 0;
+}
+
+.publish-receiptid .reciept-id h2 {
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.publish-receiptid .reciept-id a {
+    border-radius: 4px;
+    background-color: #071952;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    width: 250px;
+    padding: 4px 0px;
+    margin-top: 40px;
+}
+
+.publish-receiptid .need-help h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.publish-receiptid .need-help li {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #071952;
+    width: 260px;
+    padding: 7px 10px;
+    margin: 20px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.publish-receiptid .need-help li a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.publish-receiptid .need-help li i {
+    margin-right: 10px;
+}
+
+
+/* End: Publish book Receipt ID page*/
+
+
+/* Begin: Publish book tab page */
+
+.publish-books-tab {
+    margin: 50px 0px;
+}
+
+.publish-books-tab li.nav-item {
+    text-align: center;
+    border-radius: 6px;
+    margin-right: 25px;
+    width: 170px;
+    background-color: #ffffff;
+}
+
+.publish-books-tab li.nav-item img {
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.publish-books-tab li.nav-item a {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 0px 10px;
+    color: #757575;
+    border: 1px solid #757575;
+    border-radius: 8px;
+}
+
+.publish-books-tab li.nav-item .active {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border: 1px solid #071952;
+    background-color: #ffffff;
+}
+
+.publish-books-tab li.nav-item a.active {
+    color: #fff;
+    background: #071952;
+}
+
+.publish-books-tab .tab-content {
+    margin-top: 40px;
+}
+
+.publish-books-tab .group-border {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    border: 1px solid #bdbdbd;
+    width: 100%;
+    float: left;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+}
+
+.publish-books-tab .book-img {
+    width: 25%;
+    float: left;
+}
+
+.publish-books-tab .book-img img {
+    max-width: 100%;
+    width: 115px;
+}
+
+.publish-books-tab .book-title {
+    width: 75%;
+    float: left;
+    min-height: 120px;
+}
+
+.publish-books-tab .book-title .table {
+    margin-bottom: 0;
+}
+
+.publish-books-tab .book-title td {
+    border: 0px;
+    color: #757575;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.publish-books-tab .view-detail {
+    width: 100%;
+    float: left;
+    text-align: right;
+    margin: -20px -13px;
+}
+
+.publish-books-tab .view-detail a {
+    color: #071952;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.publish-books-tab .sales-report li.nav-item {
+    text-align: center;
+    margin-right: 15px;
+    width: 110px;
+    border-radius: 2px;
+    background-color: #eeeeee;
+}
+
+.publish-books-tab .sales-report input[type="date"] {
+    font-size: 15px;
+    padding: 7px 10px !important;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #0000006e;
+    color: #00000080;
+}
+
+.publish-books-tab .sales-report li.nav-item a {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0px;
+    color: #8e8e8e;
+    border: 1px solid #cccccc4f;
+}
+
+.publish-books-tab .sales-report li.nav-item .active {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border: 1px solid #071952;
+    background-color: #071952;
+}
+
+.publish-books-tab .sales-report li.nav-item a.active {
+    color: #fff;
+}
+
+.publish-books-tab .sales-report {
+    margin-top: 50px;
+}
+
+.publish-books-tab .sales-report .table-responsive {
+    display: inline-table;
+}
+
+.publish-books-tab .sales-report .table th {
+    text-align: center;
+    color: #071952 !important;
+    font-size: 14px;
+}
+
+.publish-books-tab .sales-report .table th:nth-child(n+1) {
+    background-color: #e3f2fd;
+}
+
+.publish-books-tab .sales-report .table th:nth-child(2n) {
+    background-color: #bbdefb;
+}
+
+.publish-books-tab .sales-report .table td {
+    text-align: center;
+    font-size: 14px;
+}
+
+.publish-books-tab .sales-report .table td:nth-child(n+1) {
+    background-color: #fff;
+}
+
+.publish-books-tab .sales-report .table td:nth-child(2n) {
+    background-color: #eeeeee;
+}
+
+.publish-books-tab .sales-report .dataTables_length select {
+    width: 55px;
+}
+
+.publish-books-tab .sales-report label {
+    margin: 7px 0px !important;
+    font-size: 14px;
+}
+
+.publish-books-tab .sales-report table.dataTable.table-striped>tbody>tr.odd>* {
+    box-shadow: 0px 0 0 0!important;
+}
+
+.publish-books-tab .sales-report table.dataTable {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.publish-books-tab .sales-report .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0px !important;
+}
+
+.publish-books-tab .sales-report .dataTables_filter input {
+    width: 210px;
+    height: 35px;
+    min-height: 35px;
+}
+
+.publish-books-tab .bar-group {
+    margin-top: 60px;
+}
+
+.publish-books-tab .total-sold {
+    margin: 4% 0px;
+}
+
+.publish-books-tab .total-sold h3 {
+    color: #212121;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.publish-books-tab .total-sold .box {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    background-color: #e3f2fd;
+    padding: 25px 0px;
+    margin-bottom: 12px;
+}
+
+.publish-books-tab .total-sold .box h4 {
+    color: #1e88e5;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 21px;
+}
+
+.publish-books-tab .total-sold .box h1 {
+    color: #0d47a1;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.publish-books-tab .bar-chart {
+    margin: 0px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.publish-books-tab .bar-chart .chart {
+    background-image: linear-gradient(180deg, #ffffff 0%, #e3f2fd 100%);
+    margin-bottom: 10px;
+}
+
+.publish-books-tab .bar-chart h3 {
+    color: #212121;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.chart canvas#barChart {
+    width: 285px !important;
+    height: 155px !important;
+}
+
+.chart canvas#barChart1 {
+    width: 285px !important;
+    height: 155px !important;
+}
+
+#date {
+    width: 120px;
+    outline: none;
+    border: 1px solid #aaa;
+    padding: 6px 10px;
+    color: #aaa;
+}
+
+.date-container {
+    position: relative;
+    float: left;
+}
+
+.date-text {
+    position: absolute;
+    top: 6px;
+    left: 12px;
+    color: #aaa;
+}
+
+.date-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #aaa;
+}
+.gutter-row{
+margin-top: 8px;
+}
+
+.salesbookTab{
+    margin-top: 30px;
+}
+.salesbookTab .gutter-row{
+    padding-left: 8px;
+    padding-right: 8px;
+    
+    margin-top: 8px;
+}
+.salesbookTab .bookChild{
+    display: flex;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 7px 15px;
+    margin-bottom: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background: #fff;
+}
+.salesbookTab .bookChild .imgSide {
+    margin-right: 30px;
+}
+
+.salesbookTab .bookChild .textSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.salesbookTab .bookChild .textSide span{
+    font-size: 15px;
+    margin-bottom: 7px;
+    color: #000;
+}
+.salesbookTab .bookChild .textSide span b{
+    margin-left: 7px;
+}
+
+
+/* End: Publish book tab page */
+
+
+/* Begin: Sign Agreement page*/
+
+.publish-sign-agreement {
+    margin: 50px 10%;
+}
+
+.publish-sign-agreement h3 {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.publish-sign-agreement .agreement {
+    border: 1px solid #ccc;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.publish-sign-agreement .background h4 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.publish-sign-agreement .background ol {
+    margin-left: 40px;
+}
+
+.publish-sign-agreement .background li {
+    color: #000;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 0 12px;
+}
+
+.publish-sign-agreement .signature {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.publish-sign-agreement .signature .sign {
+    border: 1px solid #ccc;
+    padding: 0px 0px;
+    border-radius: 5px;
+}
+
+.publish-sign-agreement .signature .sign p {
+    margin: 0px;
+    color: #000;
+}
+
+.publish-sign-agreement .submit {
+    width: 100%;
+    text-align: center;
+}
+
+.publish-sign-agreement .submit a {
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block;
+    background: #2e90cf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+/* End: Sign Agreement page*/
+
+
+/* Begin: : Sign Agreement successfull */
+
+.publish-sign-successful {
+    text-align: center;
+    margin: 50px 10%;
+    border: 4px double#cccccc73;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.publish-sign-successful img {
+    max-width: 100%;
+    width: 70px;
+}
+
+.publish-sign-successful h3 {
+    color: #212121;
+    font-size: 24px;
+    font-weight: 500
+}
+
+.publish-sign-successful p {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.publish-sign-successful .para {
+    border-radius: 8px;
+    background-color: #e3f2fd;
+    width: 600px;
+    margin: 35px auto 0;
+    padding: 20px 15px;
+}
+
+.publish-sign-successful .para p {
+    color: #071952;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.publish-sign-successful .support-btn {
+    width: 500px;
+    margin: 40px auto 0;
+}
+
+.publish-sign-successful .support-btn h3 {
+    color: #212121;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.publish-sign-successful .support-btn li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #071952;
+    padding: 7px 10px;
+    width: 225px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: left;
+}
+
+.publish-sign-successful .support-btn li a {
+    padding: 10px 0px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.publish-sign-successful .support-btn li i {
+    margin-right: 20px;
+}
+
+
+/* End:Sign Agreement successfull */
+
+
+/* Begin: Publish view detail */
+
+.publish-viewdetail {
+    margin: 60px 10%;
+}
+
+.publish-viewdetail .total-sold {
+    width: 550px;
+    margin: 0 auto 35px;
+}
+
+.publish-viewdetail .total-sold .box {
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 16%);
+    border-radius: 4px;
+    background-color: #e3f2fd;
+    padding: 25px 0px;
+    margin-bottom: 12px;
+}
+
+.publish-viewdetail .total-sold .box h4 {
+    color: #1e88e5;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 21px;
+}
+
+.publish-viewdetail .total-sold .box h1 {
+    color: #0d47a1;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.publish-viewdetail .total-sold h3 {
+    color: #212121;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.publish-viewdetail .table th:nth-child(n+1) {
+    background-color: #e3f2fd;
+}
+
+.publish-viewdetail .table th:nth-child(2n) {
+    background-color: #bbdefb;
+}
+
+.publish-viewdetail .table td:nth-child(n+1) {
+    background-color: #fff;
+}
+
+.publish-viewdetail .table td:nth-child(2n) {
+    background-color: #eeeeee;
+}
+
+.publish-viewdetail label {
+    margin: 7px 0px !important;
+    font-size: 14px;
+}
+
+.publish-viewdetail .table th {
+    text-align: center;
+    color: #071952 !important;
+    font-size: 14px;
+}
+
+.publish-viewdetail .table td {
+    text-align: center;
+    font-size: 14px;
+}
+
+.publish-viewdetail .dataTables_length select {
+    width: 55px !important;
+}
+
+.publish-viewdetail table.dataTable.table-striped>tbody>tr.odd>* {
+    box-shadow: 0px 0 0 0!important;
+}
+
+.publish-viewdetail .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0px !important;
+}
+
+.publish-viewdetail table.dataTable {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.publish-viewdetail .table-responsive {
+    display: inline-table;
+}
+
+.publish-viewdetail .dataTables_filter input {
+    width: 210px !important;
+    height: 35px;
+    min-height: 35px;
+}
+.DaysTab{
+    margin-top: 35px;
+    height: 50vh;
+}
+.DaysTab table{
+    background: #fff;
+}
+.DaysTab .tabData .daybtn {
+    width: 140px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+}
+.DaysTab .tabData span{
+    color:#000;
+}
+.DaysTab table th{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.DaysTab table td {
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+/* End: Publish view detail */

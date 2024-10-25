@@ -1,0 +1,123 @@
+.Attendence {
+    width: 100%;
+    float: left;
+    /* background: #ffff url(../images/background-bg.svg); */
+	margin-top:75px
+}
+.myAttendance{
+    margin: 70px 0px;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.myAttendance .AttendanceChild{
+    margin: 0 0px 45px;
+}
+.myAttendance .AttendanceChild span{
+    padding: 10px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(241, 97, 54);
+    color: white;
+    margin-right: 12px;
+    border: 1px solid #071952;
+    font-weight: 500;
+}
+.myAttendance .groupSec{
+    background: #fff;
+    padding: 25px 25px;
+    border-radius: 8px;
+    margin-right: 15px;
+    width: 48%;
+    float: left;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+.myAttendance .groupSec:nth-child(3){
+    margin-right:0px;
+}
+.myAttendance .groupChild{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.myAttendance .groupChild b{
+    font-size: 16px;
+}
+.myAttendance .groupChild span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.myAttendance .childText{
+    border: 1px solid #ddd;
+    margin: 8px 0px;
+    opacity: 1;
+    padding: 0px;
+}
+.myAttendance .belowText{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.belowText span{
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1329px){
+    .myAttendance .groupChild b {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .myAttendance .groupSec {
+        padding: 15px 15px;
+    }
+    .myAttendance .groupChild b {
+        font-size: 12px;
+    }
+    .myAttendance .groupChild span {
+        font-size: 14px;
+    }
+    .myAttendance .belowText span {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .myAttendance .groupSec{
+        width: 100%;
+    }
+}
+@media only screen  and (max-width:767px){
+    .Attendence{
+        margin-top: 55px;
+    }
+    .myAttendance {
+        margin: 50px 0px;
+    }
+    .myAttendance  .groupSec{
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .myAttendance .AttendanceChild span {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+    .myAttendance .groupChild b {
+        font-size: 14px;
+    }
+    .myAttendance .groupChild span {
+        font-size: 14px;
+    }
+    .myAttendance .belowText span {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .myAttendance .AttendanceChild {
+        margin: 0 0px 30px;
+    }
+}

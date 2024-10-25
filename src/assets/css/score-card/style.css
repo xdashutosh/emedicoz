@@ -1,0 +1,71 @@
+.scoreCardData{
+    padding: 50px 0px;
+    background: #ffff url(https://d2enu63wt1sf3u.cloudfront.net/react_emed_web/background-bg.svg);
+}
+
+.scoreCardData .profile-content-bx{
+    border-radius: 10px;
+    background: #fff;
+}
+.scoreCardData .profile-content-bx .profile-head {
+    border: none !important;
+}
+.scoreCardData .profile-content-bx .profile-head ul {
+    border: 0px;
+}
+
+.scoreCardData .profile-content-bx .nav-tabs .nav-item button {
+    border: 1px solid #071952 !important;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 120px !important;
+    color: #071952;
+    font-weight: 500;
+}
+.scoreCardData .profile-content-bx .nav-tabs .nav-item button.active {
+    background: #071952;
+    color: #fff !important;
+    border: 1px solid #071952 !important
+}
+.scoreCardData .profile-content-bx .teacher-info .price .btn.result {
+    background: #071952;
+    color: #fff !important;
+    border: 1px solid #071952 !important;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 6px 10px;
+}
+.scoreCardData .profile-content-bx .teacher-info .teacher-name p.date_txt em.fa-clock-o {
+    color: #071952;
+    font-size: 14px;
+    margin-right: 6px;
+}
+.scoreCardData .profile-content-bx .teacher-bx {
+    height: auto;
+    overflow-y: auto;
+}
+.scoreCardData .teacher-bx {
+    padding: 0 0px;
+}
+.pro-expert-eme .teacher-info:last-child{
+    border-bottom: 0px;
+    margin-bottom: 0;
+}
+
+
+
+@media only screen and (max-width:767px){
+    .scoreCardData {
+        margin: 25px 0px;
+    }
+    .scoreCardData .profile-content-bx .nav-tabs .nav-item button {
+        font-size: 11px;
+        border-radius: 8px;
+        width: 75px !important;
+        padding: 8px 0px;
+    }
+    .scoreCardData .profile-content-bx .teacher-info .price .btn.result {
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+}
